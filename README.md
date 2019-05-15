@@ -1,9 +1,3 @@
 # AnaliseImagem
-Calculates:
-  shape/form
-  size
-  perimeter
-  mass center
-  domino piece
-  domino piece color
-  and others
+
+Objective This work aims to develop a set of algorithms that allow the identification of objects. Thus, 3 challenges are proposed that should be solved by each group. The groups can choose to develop a single program that solves the 3 challenges, or by implementing a specific program for each challenge. - Challenge # 1 With this challenge it is intended that the program read the file "PecasDeMadeira.ppm" with the purpose of identifying all the pieces of wood visible in the image (red, yellow, blue and beige pieces). For each piece you must present the value of your area (in pixels) and the position of your center of mass, as well as determine its shape and color. The program should also indicate the total number of pieces found, as well as the number of pieces of each color and each shape. Finally, you should generate an image where the position of the center of mass of each object is indicated, as well as display a bounding box around each piece of wood. - Challenge # 2 With this challenge, the program will read the file "Data.ppm" in order to identify all the pieces of data visible in the image (two white data and one black die). The program should also indicate the value of each of the data (5, 4 and 3) and its location of the center of mass. To identify the value of a data, the algorithm should be based on the marks recorded in the data (white marks on the black die, and black marks on the white dice). - Challenge # 3 With this challenge the program will read the image stored in the file "Domino.ppm" in order to identify all domino pieces visible in the image, and face up (parts: 0/0 , 1/2, 1/4, and 3/5). The program should indicate its location of the center of mass of each piece of domino.
